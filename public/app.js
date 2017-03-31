@@ -1,3 +1,5 @@
+
+
 angular.module('userProfiles', ['ui.router'])
 
 .config(function( $stateProvider, $urlRouterProvider ) {
@@ -17,3 +19,6 @@ angular.module('userProfiles', ['ui.router'])
 	$urlRouterProvider.otherwise('/');
 
 });
+
+
+
