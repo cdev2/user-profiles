@@ -4,6 +4,7 @@ angular.module('userProfiles')
     // 1. Hits line 43 of index.js
     this.login = function( user ) {
         return $http.post('/login', user)
+        // Once we have a response, this line returns to mainCtrl
     };
 
     // 2. Hits line 54 of index.js
